@@ -22,7 +22,7 @@
 <!-- svelte-ignore a11y_click_events_have_key_events -->
 <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
  {#if !removeimg}
- <img on:click={()=>click = true} src="./shop.png" class="w-[100vw] h-[100vh] object-contain" alt="Free" />
+ <img on:click={()=>click = true} src="./shop.png" class="w-[100vw] h-[100vh] object-cover" alt="Free" />
  {/if}
 <!-- svelte-ignore a11y_media_has_caption -->
 <!-- svelte-ignore a11y_consider_explicit_label -->
